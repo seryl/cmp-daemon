@@ -14,11 +14,11 @@
 
 #define FAN_1_MANUAL "/sys/devices/platform/applesmc.768/fan1_manual"
 
-#define RD_CPU_1_TEMP "/sys/devices/platform/coretemp.0/temp2_input"
-#define RD_CPU_2_TEMP "/sys/devices/platform/coretemp.0/temp3_input"
+#define RD_CPU_1_TEMP "/sys/class/hwmon/hwmon2/device/temp2_input"
+#define RD_CPU_2_TEMP "/sys/class/hwmon/hwmon2/device/temp3_input"
 
-#define RD_FAN_1 "/sys/devices/platform/applesmc.768/fan1_input"
-#define WR_FAN_1 "/sys/devices/platform/applesmc.768/fan1_output"
+#define RD_FAN_1 "/sys/class/hwmon/hwmon1/device/fan1_input"
+#define WR_FAN_1 "/sys/class/hwmon/hwmon1/device/fan1_output"
 
 #define MIN_SPEED 2000
 #define MAX_SPEED 5700
