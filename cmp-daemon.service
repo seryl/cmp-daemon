@@ -1,0 +1,11 @@
+[Unit]
+Description=Configure CPU Fan Speed
+After=syslog.target
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/usr/bin/cmp-daemon
+
+[Install]
+WantedBy=multi-user.target
