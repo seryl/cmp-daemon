@@ -5,6 +5,7 @@ Release:       1%{?dist}
 License:       MIT
 
 URL:           https://github.com/seryl/cmp-daemon
+Source0:       https://github.com/seryl/%{name}/archive/v%{version}.tar.gz
 BuildRequires: gcc
 
 
