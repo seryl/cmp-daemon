@@ -1,6 +1,6 @@
 Summary:       Fan Control Daemon for Mac Mini's.
 Name:          cmp-daemon
-Version:       0.0.1
+Version:       0.0.2
 Release:       1%{?dist}
 License:       MIT
 
