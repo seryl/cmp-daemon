@@ -31,6 +31,9 @@ install -p -m 644 cmp-daemon.service %{buildroot}%{_unitdir}
 %{_bindir}/cmp-daemon
 %{_unitdir}/cmp-daemon.service
 
+%pre
+/usr/sbin/modprobe applesmc -v
+
 %post
 /bin/systemctl daemon-reload
 /bin/systemctl enable cmp-daemon
