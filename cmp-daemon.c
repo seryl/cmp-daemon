@@ -14,8 +14,8 @@
 
 #define FAN_1_MANUAL "/sys/devices/platform/applesmc.768/fan1_manual"
 
-#define RD_CPU_1_TEMP "/sys/devices/platform/coretemp.0/temp2_input"
-#define RD_CPU_2_TEMP "/sys/devices/platform/coretemp.0/temp3_input"
+#define RD_CPU_1_TEMP "/sys/devices/platform/coretemp.0/hwmon/hwmon1/temp2_input"
+#define RD_CPU_2_TEMP "/sys/devices/platform/coretemp.0/hwmon/hwmon1/temp3_input"
 
 #define RD_FAN_1 "/sys/devices/platform/applesmc.768/fan1_input"
 #define WR_FAN_1 "/sys/devices/platform/applesmc.768/fan1_output"
